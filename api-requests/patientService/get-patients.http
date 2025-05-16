@@ -1,9 +1,3 @@
-PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174011
-Content-Type: application/json
-
-{
-  "name": "Ghanshyam updated2",
-  "email": "ghanshyam@gmail.com",
-  "address": "1234 road",
-  "dateOfBirth": "2000-01-01"
-}
+#PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174011
+#Content-Type: application/json
+GET http://localhost:4000/patients
